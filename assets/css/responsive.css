@@ -1,0 +1,73 @@
+
+
+/** MOBILE **/
+@media (max-width:740px) {
+    #header {
+        overflow: hidden;
+        position: fixed;
+    }
+
+    #header #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        padding: 5px 39px;
+        color: white;
+    }
+
+    #nav li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header .head-search {
+        display: none;
+    }
+
+    #header .head-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #content .member-list {
+        margin-top: 17px;
+    }
+    
+    #content .member-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    #content .ticket-item {
+        width: 100%;
+    }
+
+    .contact .information {
+        position: initial;
+        margin-bottom: 16px;
+    }
+
+    .form .input-contact {
+        width: 100%;
+    }
+
+    .form .btn-contact{
+        width: 100%;
+    }
+}
+
